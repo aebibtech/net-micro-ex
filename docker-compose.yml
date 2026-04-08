@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wpm.management.api:
+    image: ${DOCKER_REGISTRY-}wpmmanagement
+    build:
+      context: .
+      dockerfile: Wpm.Management.Api/Dockerfile
