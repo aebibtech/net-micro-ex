@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Management.Api", "Wpm.M
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{72A28DA9-8265-4E59-B1FD-19E7D0165ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Clinic", "Wpm.Clinic\Wpm.Clinic.csproj", "{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{72A28DA9-8265-4E59-B1FD-19E7D0165ECE}.Release|x64.Build.0 = Release|Any CPU
 		{72A28DA9-8265-4E59-B1FD-19E7D0165ECE}.Release|x86.ActiveCfg = Release|Any CPU
 		{72A28DA9-8265-4E59-B1FD-19E7D0165ECE}.Release|x86.Build.0 = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|x64.Build.0 = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Debug|x86.Build.0 = Debug|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|x64.ActiveCfg = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|x64.Build.0 = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|x86.ActiveCfg = Release|Any CPU
+		{6E31D4F5-2AB8-4994-AE5D-C27267C7BB87}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>7395107f-ef9c-4d34-ba85-463d4f7b31ea</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+     <LangVersion>preview</LangVersion>
+</PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.25" />
+    <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="8.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DataAccess\" />
+    <None Remove="ExternalServices\" />
+    <None Remove="Application\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="Application\" />
+  </ItemGroup>
+</Project>
