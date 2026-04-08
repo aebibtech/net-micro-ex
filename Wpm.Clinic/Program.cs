@@ -31,6 +31,7 @@ builder.Services.AddHttpClient<ManagementService>(client =>
         Delay = TimeSpan.FromSeconds(10)
     });
 });
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
